@@ -13,8 +13,9 @@ const app_key = 'e5ac670d6c9cc04118e7efda54428159'
   useEffect( ()=> {getRecipes()}, [])
 
   const getRecipes = async () => {
-    const response = await fetch(`https://api.edamam.com/search?q=chicken&app_id=${app_id}&app_key=${app_key}`)
-    const data = await response.json();
+    const response = await fetch(`http://localhost:3000/`)
+    const data = await console.log(response);
+    
     setrecipes(data.hits)
     console.log(data.hits);
     
