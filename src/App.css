@@ -1,10 +1,42 @@
+*{
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+ 
 }
+.recipe{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding:20px;
+  justify-content: space-around;
+}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App form{
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+}
+.App form input{
+  width: 50%;
+  height: 28px;
+
+}
+
+.App form button{
+  background-color: rgb(99, 207, 113);
+  height:28px;
+  border: 1px solid green;
 }
 
 @media (prefers-reduced-motion: no-preference) {

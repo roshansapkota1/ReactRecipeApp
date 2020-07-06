@@ -1,0 +1,50 @@
+.recipe-divs{
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+
+    
+  }
+
+  .recipe-divs h1{
+    font-size: 1.2em;
+    padding: 2px 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgb(36, 34, 34);
+    background-color: rgb(223, 145, 145);
+    margin: 8px;
+
+  }
+
+  .image-div{
+  
+    border: 1px solid black;
+    width: fit-content;
+    padding: 8px;
+    background-color: white;
+  }
+
+  .image-div img{
+    padding: 0px;
+    margin: 0px;
+    max-height: 280px;
+    min-height: 150px;
+  }
+
+  .header-gallary{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: initial;
+  }
+  
+  .div-image{
+    height:300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+
+  }
