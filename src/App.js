@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import './App.css';
 import Recipe from './components/Recipe'
 import HeaderGallary from './components/HeaderGallary'
+import Header from './components/Header';
 
 const App = ( ) => {
 const app_id = 'fee68eda';
@@ -38,6 +39,7 @@ const app_key = 'e5ac670d6c9cc04118e7efda54428159'
 
   return (
     <div className='App'>
+      <Header/>
       <HeaderGallary />
       <form className='search-form' onClick={responseOnClick}>
         <input className='search-bar' type='text' value={search} onChange={updateSearch}/>
